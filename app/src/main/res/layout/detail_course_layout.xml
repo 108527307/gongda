@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="课程信息"
+            android:textColor="@color/md_white_1000"
+            android:padding="20dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                android:text="课程名称:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/courseName2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                android:text="课程地点:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/courseAddress2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                android:text="课程讲师:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/courseTea2"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                android:text="课程校区:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/courseCamp2"
+
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:singleLine="true"-->
+        <!--android:textSize="15sp"-->
+        <!--android:text="课程时间:"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1.5"
+                android:textSize="15sp"
+                android:text="课程星期:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/courseWeek2"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="课程上课周:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/courseWeeks"
+
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="课程时间段:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/courseTimes2"
+
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/CourseCancel"
+                android:layout_margin="10dp"
+                android:text="关闭"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/CourseDelete"
+                android:layout_margin="10dp"
+                android:text="删除"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+

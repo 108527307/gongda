@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+
+            android:title="课程表" />
+        <item
+            android:id="@+id/nav_my_focus"
+
+            android:title="成绩" />
+        <item
+            android:id="@+id/nac_news_other"
+
+            android:title="教务信息" />
+        <item
+            android:id="@+id/moodle"
+
+            android:title="南京工业大学在线学习平台" />
+        <item
+            android:id="@+id/music"
+
+            android:title="校内免费音乐" />
+        <item
+            android:id="@+id/online"
+
+            android:title="南工在线" />
+        <item
+            android:id="@+id/PowerQuerying"
+            android:title="水电查询与充值"/>
+    </group>
+
+
+    <item android:title="About">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="true"
+
+                android:title="关于我" />
+
+            <item
+                android:id="@+id/nav_about_app"
+                android:checkable="true"
+
+                android:title="关于工大盒子" />
+        </menu>
+    </item>
+
+</menu>
